@@ -1,0 +1,52 @@
+﻿@model ArticleProject.ViewModel.PostViewModel
+@inject ArticleProject.Data.IDataHelper<ArticleProject.Core.Category> dataHelper
+@{
+    ViewData["Title"] = "اضافة منشور";
+    Layout = "~/Pages/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1 style="font-family:Cairo; direction:rtl">اضافة منشور</h1>
+
+<h4 style="font-family:Cairo; direction:rtl">منشور</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           
+            <div class="form-group">
+                <label asp-for="PostCategory" class="control-label"></label>
+                <select asp-for="PostCategory" asp-items="new SelectList(dataHelper.GetAllData().Select(x=>x.Name))" class="form-control" ></select>
+                <span asp-validation-for="PostCategory" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PostTitle" class="control-label"></label>
+                <input asp-for="PostTitle" class="form-control" />
+                <span asp-validation-for="PostTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PostDescription" class="control-label"></label>
+                <textarea asp-for="PostDescription" class="form-control"></textarea>
+                <span asp-validation-for="PostDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BathImage" class="control-label"></label>
+                <input asp-for="BathImage" type="file" class="form-control" />
+                <span asp-validation-for="BathImage" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="اضافة" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">الرجوع الى المنشورات</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
