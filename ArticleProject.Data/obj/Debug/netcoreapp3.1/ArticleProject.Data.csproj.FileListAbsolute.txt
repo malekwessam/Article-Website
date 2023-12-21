@@ -1,0 +1,16 @@
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\bin\Debug\netcoreapp3.1\ArticleProject.Data.deps.json
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\bin\Debug\netcoreapp3.1\ArticleProject.Data.dll
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\bin\Debug\netcoreapp3.1\ArticleProject.Data.pdb
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\obj\Debug\netcoreapp3.1\ArticleProject.Data.csproj.AssemblyReference.cache
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\obj\Debug\netcoreapp3.1\ArticleProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\obj\Debug\netcoreapp3.1\ArticleProject.Data.AssemblyInfoInputs.cache
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\obj\Debug\netcoreapp3.1\ArticleProject.Data.AssemblyInfo.cs
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\obj\Debug\netcoreapp3.1\ArticleProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\obj\Debug\netcoreapp3.1\ArticleProject.Data.dll
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\obj\Debug\netcoreapp3.1\ArticleProject.Data.pdb
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\bin\Debug\netcoreapp3.1\ArticleProject.Data.runtimeconfig.json
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\bin\Debug\netcoreapp3.1\ArticleProject.Data.runtimeconfig.dev.json
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\bin\Debug\netcoreapp3.1\ArticleProject.Core.dll
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\bin\Debug\netcoreapp3.1\ArticleProject.Core.pdb
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\obj\Debug\netcoreapp3.1\ArticleProject.Data.csproj.CopyComplete
+C:\Users\Maaaalleeeek\source\repos\ArticleProject.Data\obj\Debug\netcoreapp3.1\ArticleProject.Data.genruntimeconfig.cache
